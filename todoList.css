@@ -1,1 +1,185 @@
+https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  background: lightblue;
+font-family: 'Fjalla One', sans-serif;
+letter-spacing:2.5px;
+}
+
+.content .todo-container{
+overflow-y: auto;
+max-height: 250px;
+
+}
+
+header{
+ align-items: center;
+ position: relative;
+}
+header p{
+font-size: 20px;
+font-weight: 600;
+text-align:center;
+}
+
+header button{
+position: absolute;
+right:0;
+top:-3px;
+background: darkblue;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  font-size: 21px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  cursor: pointer;
+opacity: 0.6;
+  pointer-events: none;
+}
+
+header button.active{
+  opacity: 1;
+  pointer-events: auto;
+
+}
+
+
+.content{
+  background: #fff;
+  max-width: 400px;
+  width: 100%;
+  margin: 120px auto;
+  padding:25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+
+.InputContainer{
+  text-align: center;
+  height: 40px;
+ margin-bottom: 15px;
+}
+
+.InputContainer input{
+
+  width: 95%;
+  height: 30px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  padding: 5px;
+  transition: all 0.3s ease;
+  text-indent: 5px;
+}
+
+.InputContainer input:focus{
+  border-color: darkblue;
+}
+
+.todo-container {
+margin-left:-37px;
+}
+
+.todo-container li{
+/*for hover of trash*/
+overflow: hidden;
+height:45px;
+line-height:45px;
+position: relative;
+background-color:#f5f5f5;
+border-radius: 5px;
+margin-bottom:8px;
+padding: 0px 15px;
+cursor: default;
+list-style: none;
+word-wrap: break-word;
+}
+
+.todo-container li span{
+position: absolute;
+right:-45px;
+color:white;
+width:45px;
+background-color: darkred;
+text-align: center;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+
+.todo-container li:hover span{
+ right:0px;
+}
+
+
+
+
+.todo-footer{
+text-align: center;
+
+}
+
+.todo-footer p{
+font-size: 15px;
+font-weight: 600;
+text-align:center;
+line-height:10px;
+
+}
+
+
+.todo-footer .jsClearbtn{
+  margin-top: 10px;
+  background: darkblue;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 6px 10px;
+opacity: 0.6;
+  pointer-events: none;
+
+}
+.todo-footer button.active{
+opacity: 1;
+pointer-events: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
