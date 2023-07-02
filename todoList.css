@@ -44,7 +44,7 @@ background: darkblue;
   cursor: pointer;
   border-radius: 3px;
   cursor: pointer;
-opacity: 0.6;
+  opacity: 0.6;
   pointer-events: none;
 }
 
@@ -162,7 +162,10 @@ opacity: 1;
 pointer-events: auto;
 }
 
+.todo-footer .jsClearbtn:hover{
+opacity: 0.7;
 
+}
 
 
 
